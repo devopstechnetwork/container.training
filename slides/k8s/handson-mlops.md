@@ -110,6 +110,30 @@ class: in-person, pic
 
 ---
 
+## Our recommendation
+
+- Any managed Kubernetes cluster
+
+- Nodes with 8 GB of RAM (or more)
+
+- At least 1 node (obviously!)
+
+- Ideally, cluster autoscaling
+
+  (you can set the maximum number of nodes to 5)
+
+- Alternatively, have a cluster of at least 3 nodes
+
+  (ideally a bit more to see the effect of scaling)
+
+- Local tools: kubectl, Helm, Stern, Bento
+
+- You can also use [shpod] to get a shell on the cluster
+
+[shpod]: https://github.com/jpetazzo/shpod
+
+---
+
 class: in-person
 
 ## Why don't we run containers locally?
